@@ -171,11 +171,15 @@ grid-template-columns: repeat(4,1fr);
         flex-direction: column;
     }
 
-    .team-img-container{
+    .team-img-container, .facts-container{
         grid-template-columns: repeat(1, 1fr);
     }
     .our-features{
         margin-left: 20px;
+    }
+    .facts-container{
+        justify-items: center;
+        gap: 24px;
     }
 }
 
@@ -186,5 +190,13 @@ grid-template-columns: repeat(4,1fr);
     }
     .our-features{
         margin: 50px auto;
+    }
+    .facts-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .facts-container{
+        justify-items: center;
+        gap: 24px;
+
     }
 }
