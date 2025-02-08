@@ -218,6 +218,17 @@ grid-template-columns: repeat(4,1fr);
     filter: grayscale(100%);
 }
 
+/* footer */
+.footer{
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    
+}
+.cr-name{
+color: #ff900e;
+}
+
 /* responsive */
 /* small device */
 @media  screen and (max-width:576px) {
